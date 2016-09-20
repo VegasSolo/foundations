@@ -1,0 +1,57 @@
+Script started on Mon 23 Feb 2015 08:10:12 PM CST
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ cd csce/hw3
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw3csce_user@cscuser-VirtualBox:~/csce/hw3$ g++ hw3advanced[4Pcd csce/hw3[7Pexitscript[1Pclearg++ -Wall hw3.cpp -o hw3.exetest.cpp -o test.exe[2Phw3.cpp -o hw3.execlear[Kscript[2Pexitcd csce/hw3g++ hw3advanced[4Pcd csce/hw3g++ hw3advanced[K[K[Kced.[K[K[K[K[K[K[K[K[K[K[K[K-Wall hw3.[Kadvanced.cpp -p[Ko hw3a.exe
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw3csce_user@cscuser-VirtualBox:~/csce/hw3$ ./hw3a.exe
+Please enter four alphabetical characters: kTul
+Please enter a prime number: 7
+Please choose whether you would like to (D)ecrypt or (E)ncrypt: e
+
+We are going to encrypt your message, KTUL, using the secret key of 7.
+
+Your new message is DMNE. Thank you.
+
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw3csce_user@cscuser-VirtualBox:~/csce/hw3$ ./hw3a.exe
+Please enter four alphabetical characters: DOUM
+Please enter a prime number: 7
+Please choose whether you would like to (D)ecrypt or (E)ncrypt: D
+
+We are going to decrypt your message, DOUM, using the secret key of 7.
+
+Your new message is KVBT. Thank you.
+
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw3csce_user@cscuser-VirtualBox:~/csce/hw3$ ./hw3a.exe
+Please enter four alphabetical characters: 7ahwx
+Incorrect input. Please try again.
+Please enter four alphabetical characters: &lkans302KSn9823lkzn.*
+Incorrect input. Please try again.
+Please enter four alphabetical characters: asf   aa AAaAaa#239
+Please enter a prime number: 5
+Please choose whether you would like to (D)ecrypt or (E)ncrypt: E
+
+We are going to encrypt your message, AAAA, using the secret key of 5.
+
+Your new message is VVVV. Thank you.
+
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw3csce_user@cscuser-VirtualBox:~/csce/hw3$ ./hw3a.exe
+Please enter four alphabetical characters: aaaa    zzzz
+Please enter a prime number: 12
+That's not a prime number. Try again.
+Please enter a prime number: 20
+That's not a prime number. Try again.
+Please enter a prime number: 121
+That's not a prime number. Try again.
+Please enter a prime number: 49
+That's not a prime number. Try again.
+Please enter a prime number: 0
+That's not a prime number. Try again.
+Please enter a prime number: 1
+That's not a prime number. Try again.
+Please enter a prime number: 37
+Please choose whether you would like to (D)ecrypt or (E)ncrypt: d
+
+We are going to decrypt your message, ZZZZ, using the secret key of 37.
+
+Your new message is KKKK. Thank you.
+
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw3csce_user@cscuser-VirtualBox:~/csce/hw3$ exit
+Script done on Mon 23 Feb 2015 08:12:22 PM CST
