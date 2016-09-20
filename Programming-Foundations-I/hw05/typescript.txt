@@ -1,0 +1,622 @@
+Script started on Fri 03 Apr 2015 01:48:03 PM CDT
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ g++ -Wall hw5.cpp -o hw5.exe
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ ./hw5.exe
+Welcome to Payday! This is a game where you try to earn more money in a month than the other player. Each user will decide to roll the dice or pass their turn. The player will then move across the board. Certain events happen on the board when a player land on the corresponding letter. Once a player reaches the end of the month, their game is over.
+
+Would you like to randomize the game board?
+Enter R for [r]andomization or S for [s]tandard board:
+u
+Sorry, that didn't quite work.
+Please enter R for randomization or S for standard board:
+s
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $0
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $0
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 1
+Oh no! Your bills are overdue. You paid $850 plus $100 in fees
+
++---+---+---+---+---+---+
+| 2 | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-950
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| 2 | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-950
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 3
+It's pay day and you worked holidays! You received $1250
+
++---+---+---+---+---+---+
+| B | C | G | 2 | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $300
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| B | C | G | 2 | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $300
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 4
+Your dog is fat and needed some food. You had to pay $20
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | 2 | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $280
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | 2 | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $280
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 2
+Time to pay the bills. You paid $850
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | 2 | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-570
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | 2 | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-570
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 6
+Oh no! Your bills are overdue. You paid $850 plus $100 in fees
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | 2 | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-1520
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | 2 | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-1520
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 1
+You were in a car wreck, ouch :(. You had $40,000 in repairs.
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | 2 | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-41520
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | 2 | P | 
++---+---+---+---+---+---+
+| P | F | F | P | L | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $-41520
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 6
+You won Mega Millions Lottery!!! You received $100,000
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | 2 | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $58480
+
+Player 1, type an R to roll or P to pass this turn: p
+Player 1 has passed.
+
++---+---+---+---+---+---+
+| B | C | G | P | L | C | 
++---+---+---+---+---+---+
+| F | F | P | B | B | L | 
++---+---+---+---+---+---+
+| F | G | F | B | C | P | 
++---+---+---+---+---+---+
+| P | F | F | P | 2 | G | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $58480
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 6
+The game is over
+
+The final totals are: 
+Player 1 = $0
+Player 2 = $58480
+
+The winner is Player 2
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ ./hw5.exe
+Welcome to Payday! This is a game where you try to earn more money in a month than the other player. Each user will decide to roll the dice or pass their turn. The player will then move across the board. Certain events happen on the board when a player land on the corresponding letter. Once a player reaches the end of the month, their game is over.
+
+Would you like to randomize the game board?
+Enter R for [r]andomization or S for [s]tandard board:
+r R
+The board has been randomized.
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $0
+Player 2 has $0
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 1
+It's pay day! You received $1000
+
++---+---+---+---+---+---+
+| 1 | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $1000
+Player 2 has $0
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 2
+It's pay day! You received $1000
+
++---+---+---+---+---+---+
+| 1 | 2 | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $1000
+Player 2 has $1000
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 2
+It's pay day and you worked holidays! You received $1250
+
++---+---+---+---+---+---+
+| P | 2 | 1 | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $2250
+Player 2 has $1000
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 5
+It's pay day! You received $1000
+
++---+---+---+---+---+---+
+| P | P | 1 | P | G | F | 
++---+---+---+---+---+---+
+| 2 | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $2250
+Player 2 has $2000
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 3
+Your dog needed some food. You had to pay $10
+
++---+---+---+---+---+---+
+| P | P | P | P | G | 1 | 
++---+---+---+---+---+---+
+| 2 | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $2240
+Player 2 has $2000
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 5
+Time to pay the bills. You paid $850
+
++---+---+---+---+---+---+
+| P | P | P | P | G | 1 | 
++---+---+---+---+---+---+
+| P | G | G | P | C | 2 | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $2240
+Player 2 has $1150
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 1
+It's pay day and you worked holidays! You received $1250
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| 1 | G | G | P | C | 2 | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $3490
+Player 2 has $1150
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 1
+It's pay day and you worked holidays! You received $1250
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| 1 | G | G | P | C | B | 
++---+---+---+---+---+---+
+| 2 | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $3490
+Player 2 has $2400
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 3
+It's pay day and you worked holidays! You received $1250
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | 1 | C | B | 
++---+---+---+---+---+---+
+| 2 | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $4740
+Player 2 has $2400
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 5
+Oh no! Your bills are overdue. You paid $850 plus $100 in fees
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | 1 | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | 2 | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $4740
+Player 2 has $1450
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 1
+You were in a car wreck, ouch :(. You had $40,000 in repairs.
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | 1 | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | 2 | 
++---+---+---+---+---+---+
+| P | B | P | P | C | B | 
++---+---+---+---+---+---+
+Player 1 has $-35260
+Player 2 has $1450
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 5
+You were in a minor car wreck. You had $15,000 in repairs.
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | 1 | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | 2 | B | 
++---+---+---+---+---+---+
+Player 1 has $-35260
+Player 2 has $-13550
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 6
+Oh no! Your bills are overdue. You paid $850 plus $100 in fees
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | 1 | B | 
++---+---+---+---+---+---+
+| P | B | P | P | 2 | B | 
++---+---+---+---+---+---+
+Player 1 has $-36210
+Player 2 has $-13550
+
+Player 2, type an R to roll or P to pass this turn: p
+Player 2 has passed.
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | 1 | B | 
++---+---+---+---+---+---+
+| P | B | P | P | 2 | B | 
++---+---+---+---+---+---+
+Player 1 has $-36210
+Player 2 has $-13550
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 5
+It's pay day and you worked holidays! You received $1250
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | 1 | 2 | B | 
++---+---+---+---+---+---+
+Player 1 has $-34960
+Player 2 has $-13550
+
+Player 2, type an R to roll or P to pass this turn: p
+Player 2 has passed.
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | 1 | 2 | B | 
++---+---+---+---+---+---+
+Player 1 has $-34960
+Player 2 has $-13550
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 1
+You were in a car wreck, ouch :(. You had $40,000 in repairs.
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | 3 | B | 
++---+---+---+---+---+---+
+Player 1 has $-74960
+Player 2 has $-13550
+
+Player 2, type an R to roll or P to pass this turn: p
+Player 2 has passed.
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | 3 | B | 
++---+---+---+---+---+---+
+Player 1 has $-74960
+Player 2 has $-13550
+
+Player 1, type an R to roll or P to pass this turn: r
+
+Player 1 rolled a 4
+Player 1 has reached the end. Player 2 still has one turn remaining
+
++---+---+---+---+---+---+
+| P | P | P | P | G | F | 
++---+---+---+---+---+---+
+| P | G | G | P | C | B | 
++---+---+---+---+---+---+
+| P | P | G | B | B | B | 
++---+---+---+---+---+---+
+| P | B | P | P | 2 | B | 
++---+---+---+---+---+---+
+Player 1 has $-74960
+Player 2 has $-13550
+
+Player 2, type an R to roll or P to pass this turn: r
+
+Player 2 rolled a 5
+The game is over
+
+The final totals are: 
+Player 1 = $-74960
+Player 2 = $-13550
+
+The winner is Player 2
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ exit
+Script done on Fri 03 Apr 2015 01:49:16 PM CDT
