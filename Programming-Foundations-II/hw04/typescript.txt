@@ -1,0 +1,1823 @@
+Script started on Sun 19 Jul 2015 02:53:29 PM CDT
+csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ cd csce/cs2014/hw/hw4
+csce_user@cscuser-VirtualBox: ~/csce/cs2014/hw/hw4csce_user@cscuser-VirtualBox:~/csce/cs2014/hw/hw4$ g++ -Wall day.cpp tree.cpp ma 
+in.cpp -o hw4
+csce_user@cscuser-VirtualBox: ~/csce/cs2014/hw/hw4csce_user@cscuser-VirtualBox:~/csce/cs2014/hw/hw4$ ./hw4 sunrise-sunset.txt
+
+Welcome to Dillon's Sunrise/Sunset tool.
+Enter one of the following commands:
+   sunrise before [time]
+   sunrise after [time]
+   sunrise between [start_time] [end_time]
+   sunset before [time]
+   sunset after [time]
+   sunset between [start_time] [end_time]
+   help
+   all
+   quit
+
+help
+This program accepts times in both formats:
+In military, (0700, 800, 1200, 1800) and in
+standard, (7:00am, 12:00pm, 4:00pm, 12:00am).
+This program also handles both sunrise and sunset.
+sunrise before 0458
+No dates found.
+sunrise before 459
+Date:    2015-6-9
+Sunrise: 459
+Sunset:  1933
+
+Date:    2015-6-10
+Sunrise: 459
+Sunset:  1933
+
+Date:    2015-6-11
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-12
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-13
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-14
+Sunrise: 459
+Sunset:  1935
+
+Date:    2015-6-15
+Sunrise: 459
+Sunset:  1935
+
+Date:    2015-6-16
+Sunrise: 459
+Sunset:  1936
+
+Date:    2015-6-17
+Sunrise: 459
+Sunset:  1936
+
+sunset after 1930
+Date:    2015-7-22
+Sunrise: 516
+Sunset:  1930
+
+Date:    2015-7-21
+Sunrise: 515
+Sunset:  1930
+
+Date:    2015-6-5
+Sunrise: 500
+Sunset:  1930
+
+Date:    2015-6-4
+Sunrise: 500
+Sunset:  1930
+
+Date:    2015-7-20
+Sunrise: 515
+Sunset:  1931
+
+Date:    2015-6-6
+Sunrise: 500
+Sunset:  1931
+
+Date:    2015-7-19
+Sunrise: 514
+Sunset:  1932
+
+Date:    2015-7-18
+Sunrise: 513
+Sunset:  1932
+
+Date:    2015-6-8
+Sunrise: 500
+Sunset:  1932
+
+Date:    2015-6-7
+Sunrise: 500
+Sunset:  1932
+
+Date:    2015-7-17
+Sunrise: 513
+Sunset:  1933
+
+Date:    2015-7-16
+Sunrise: 512
+Sunset:  1933
+
+Date:    2015-6-10
+Sunrise: 459
+Sunset:  1933
+
+Date:    2015-6-9
+Sunrise: 459
+Sunset:  1933
+
+Date:    2015-7-15
+Sunrise: 511
+Sunset:  1934
+
+Date:    2015-7-14
+Sunrise: 511
+Sunset:  1934
+
+Date:    2015-6-13
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-12
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-11
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-7-13
+Sunrise: 510
+Sunset:  1935
+
+Date:    2015-7-12
+Sunrise: 509
+Sunset:  1935
+
+Date:    2015-7-11
+Sunrise: 509
+Sunset:  1935
+
+Date:    2015-6-15
+Sunrise: 459
+Sunset:  1935
+
+Date:    2015-6-14
+Sunrise: 459
+Sunset:  1935
+
+Date:    2015-7-10
+Sunrise: 508
+Sunset:  1936
+
+Date:    2015-7-9
+Sunrise: 507
+Sunset:  1936
+
+Date:    2015-7-8
+Sunrise: 507
+Sunset:  1936
+
+Date:    2015-6-19
+Sunrise: 500
+Sunset:  1936
+
+Date:    2015-6-18
+Sunrise: 500
+Sunset:  1936
+
+Date:    2015-6-17
+Sunrise: 459
+Sunset:  1936
+
+Date:    2015-6-16
+Sunrise: 459
+Sunset:  1936
+
+Date:    2015-7-7
+Sunrise: 506
+Sunset:  1937
+
+Date:    2015-7-6
+Sunrise: 506
+Sunset:  1937
+
+Date:    2015-7-5
+Sunrise: 505
+Sunset:  1937
+
+Date:    2015-7-4
+Sunrise: 505
+Sunset:  1937
+
+Date:    2015-7-3
+Sunrise: 504
+Sunset:  1937
+
+Date:    2015-7-2
+Sunrise: 504
+Sunset:  1937
+
+Date:    2015-6-25
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-24
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-23
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-22
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-6-21
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-6-20
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-7-1
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-30
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-29
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-28
+Sunrise: 502
+Sunset:  1938
+
+Date:    2015-6-27
+Sunrise: 502
+Sunset:  1938
+
+Date:    2015-6-26
+Sunrise: 501
+Sunset:  1938
+
+sunset after 1940
+No dates found.
+sunrise between 7:00am 7:02am
+Date:    2015-11-22
+Sunrise: 700
+Sunset:  1705
+
+Date:    2015-2-19
+Sunrise: 700
+Sunset:  1802
+
+Date:    2015-11-23
+Sunrise: 701
+Sunset:  1705
+
+Date:    2015-2-18
+Sunrise: 701
+Sunset:  1801
+
+Date:    2015-11-24
+Sunrise: 702
+Sunset:  1704
+
+Date:    2015-2-17
+Sunrise: 702
+Sunset:  1800
+
+sunset between 7:37pm 1938
+Date:    2015-7-7
+Sunrise: 506
+Sunset:  1937
+
+Date:    2015-7-6
+Sunrise: 506
+Sunset:  1937
+
+Date:    2015-7-5
+Sunrise: 505
+Sunset:  1937
+
+Date:    2015-7-4
+Sunrise: 505
+Sunset:  1937
+
+Date:    2015-7-3
+Sunrise: 504
+Sunset:  1937
+
+Date:    2015-7-2
+Sunrise: 504
+Sunset:  1937
+
+Date:    2015-6-25
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-24
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-23
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-22
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-6-21
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-6-20
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-7-1
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-30
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-29
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-28
+Sunrise: 502
+Sunset:  1938
+
+Date:    2015-6-27
+Sunrise: 502
+Sunset:  1938
+
+Date:    2015-6-26
+Sunrise: 501
+Sunset:  1938
+
+all
+Date:    2015-6-17
+Sunrise: 459
+Sunset:  1936
+
+Date:    2015-6-16
+Sunrise: 459
+Sunset:  1936
+
+Date:    2015-6-15
+Sunrise: 459
+Sunset:  1935
+
+Date:    2015-6-14
+Sunrise: 459
+Sunset:  1935
+
+Date:    2015-6-13
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-12
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-11
+Sunrise: 459
+Sunset:  1934
+
+Date:    2015-6-10
+Sunrise: 459
+Sunset:  1933
+
+Date:    2015-6-9
+Sunrise: 459
+Sunset:  1933
+
+Date:    2015-6-22
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-6-21
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-6-20
+Sunrise: 500
+Sunset:  1937
+
+Date:    2015-6-19
+Sunrise: 500
+Sunset:  1936
+
+Date:    2015-6-18
+Sunrise: 500
+Sunset:  1936
+
+Date:    2015-6-8
+Sunrise: 500
+Sunset:  1932
+
+Date:    2015-6-7
+Sunrise: 500
+Sunset:  1932
+
+Date:    2015-6-6
+Sunrise: 500
+Sunset:  1931
+
+Date:    2015-6-5
+Sunrise: 500
+Sunset:  1930
+
+Date:    2015-6-4
+Sunrise: 500
+Sunset:  1930
+
+Date:    2015-6-26
+Sunrise: 501
+Sunset:  1938
+
+Date:    2015-6-25
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-24
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-23
+Sunrise: 501
+Sunset:  1937
+
+Date:    2015-6-3
+Sunrise: 501
+Sunset:  1929
+
+Date:    2015-6-2
+Sunrise: 501
+Sunset:  1929
+
+Date:    2015-6-1
+Sunrise: 501
+Sunset:  1928
+
+Date:    2015-6-28
+Sunrise: 502
+Sunset:  1938
+
+Date:    2015-6-27
+Sunrise: 502
+Sunset:  1938
+
+Date:    2015-5-31
+Sunrise: 502
+Sunset:  1927
+
+Date:    2015-5-30
+Sunrise: 502
+Sunset:  1927
+
+Date:    2015-5-29
+Sunrise: 502
+Sunset:  1926
+
+Date:    2015-7-1
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-30
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-6-29
+Sunrise: 503
+Sunset:  1938
+
+Date:    2015-5-28
+Sunrise: 503
+Sunset:  1925
+
+Date:    2015-5-27
+Sunrise: 503
+Sunset:  1925
+
+Date:    2015-7-3
+Sunrise: 504
+Sunset:  1937
+
+Date:    2015-7-2
+Sunrise: 504
+Sunset:  1937
+
+Date:    2015-5-26
+Sunrise: 504
+Sunset:  1924
+
+Date:    2015-5-25
+Sunrise: 504
+Sunset:  1923
+
+Date:    2015-7-5
+Sunrise: 505
+Sunset:  1937
+
+Date:    2015-7-4
+Sunrise: 505
+Sunset:  1937
+
+Date:    2015-5-24
+Sunrise: 505
+Sunset:  1923
+
+Date:    2015-5-23
+Sunrise: 505
+Sunset:  1922
+
+Date:    2015-7-7
+Sunrise: 506
+Sunset:  1937
+
+Date:    2015-7-6
+Sunrise: 506
+Sunset:  1937
+
+Date:    2015-5-22
+Sunrise: 506
+Sunset:  1921
+
+Date:    2015-7-9
+Sunrise: 507
+Sunset:  1936
+
+Date:    2015-7-8
+Sunrise: 507
+Sunset:  1936
+
+Date:    2015-5-21
+Sunrise: 507
+Sunset:  1920
+
+Date:    2015-5-20
+Sunrise: 507
+Sunset:  1920
+
+Date:    2015-7-10
+Sunrise: 508
+Sunset:  1936
+
+Date:    2015-5-19
+Sunrise: 508
+Sunset:  1919
+
+Date:    2015-7-12
+Sunrise: 509
+Sunset:  1935
+
+Date:    2015-7-11
+Sunrise: 509
+Sunset:  1935
+
+Date:    2015-5-18
+Sunrise: 509
+Sunset:  1918
+
+Date:    2015-5-17
+Sunrise: 509
+Sunset:  1917
+
+Date:    2015-7-13
+Sunrise: 510
+Sunset:  1935
+
+Date:    2015-5-16
+Sunrise: 510
+Sunset:  1916
+
+Date:    2015-7-15
+Sunrise: 511
+Sunset:  1934
+
+Date:    2015-7-14
+Sunrise: 511
+Sunset:  1934
+
+Date:    2015-5-15
+Sunrise: 511
+Sunset:  1916
+
+Date:    2015-7-16
+Sunrise: 512
+Sunset:  1933
+
+Date:    2015-5-14
+Sunrise: 512
+Sunset:  1915
+
+Date:    2015-7-18
+Sunrise: 513
+Sunset:  1932
+
+Date:    2015-7-17
+Sunrise: 513
+Sunset:  1933
+
+Date:    2015-5-13
+Sunrise: 513
+Sunset:  1914
+
+Date:    2015-5-12
+Sunrise: 513
+Sunset:  1913
+
+Date:    2015-7-19
+Sunrise: 514
+Sunset:  1932
+
+Date:    2015-5-11
+Sunrise: 514
+Sunset:  1912
+
+Date:    2015-7-21
+Sunrise: 515
+Sunset:  1930
+
+Date:    2015-7-20
+Sunrise: 515
+Sunset:  1931
+
+Date:    2015-5-10
+Sunrise: 515
+Sunset:  1911
+
+Date:    2015-7-22
+Sunrise: 516
+Sunset:  1930
+
+Date:    2015-5-9
+Sunrise: 516
+Sunset:  1911
+
+Date:    2015-7-23
+Sunrise: 517
+Sunset:  1929
+
+Date:    2015-5-8
+Sunrise: 517
+Sunset:  1910
+
+Date:    2015-7-25
+Sunrise: 518
+Sunset:  1928
+
+Date:    2015-7-24
+Sunrise: 518
+Sunset:  1928
+
+Date:    2015-5-7
+Sunrise: 518
+Sunset:  1909
+
+Date:    2015-7-26
+Sunrise: 519
+Sunset:  1927
+
+Date:    2015-5-6
+Sunrise: 519
+Sunset:  1908
+
+Date:    2015-7-27
+Sunrise: 520
+Sunset:  1926
+
+Date:    2015-5-5
+Sunrise: 520
+Sunset:  1907
+
+Date:    2015-7-29
+Sunrise: 521
+Sunset:  1924
+
+Date:    2015-7-28
+Sunrise: 521
+Sunset:  1925
+
+Date:    2015-5-4
+Sunrise: 521
+Sunset:  1906
+
+Date:    2015-7-30
+Sunrise: 522
+Sunset:  1924
+
+Date:    2015-5-3
+Sunrise: 522
+Sunset:  1906
+
+Date:    2015-7-31
+Sunrise: 523
+Sunset:  1923
+
+Date:    2015-5-2
+Sunrise: 523
+Sunset:  1905
+
+Date:    2015-8-1
+Sunrise: 524
+Sunset:  1922
+
+Date:    2015-5-1
+Sunrise: 524
+Sunset:  1904
+
+Date:    2015-8-3
+Sunrise: 525
+Sunset:  1920
+
+Date:    2015-8-2
+Sunrise: 525
+Sunset:  1921
+
+Date:    2015-4-30
+Sunrise: 525
+Sunset:  1903
+
+Date:    2015-8-4
+Sunrise: 526
+Sunset:  1919
+
+Date:    2015-8-5
+Sunrise: 527
+Sunset:  1918
+
+Date:    2015-4-29
+Sunrise: 527
+Sunset:  1902
+
+Date:    2015-8-7
+Sunrise: 528
+Sunset:  1916
+
+Date:    2015-8-6
+Sunrise: 528
+Sunset:  1917
+
+Date:    2015-4-28
+Sunrise: 528
+Sunset:  1901
+
+Date:    2015-8-8
+Sunrise: 529
+Sunset:  1915
+
+Date:    2015-4-27
+Sunrise: 529
+Sunset:  1900
+
+Date:    2015-8-9
+Sunrise: 530
+Sunset:  1914
+
+Date:    2015-4-26
+Sunrise: 530
+Sunset:  1900
+
+Date:    2015-8-10
+Sunrise: 531
+Sunset:  1913
+
+Date:    2015-4-25
+Sunrise: 531
+Sunset:  1859
+
+Date:    2015-8-12
+Sunrise: 532
+Sunset:  1910
+
+Date:    2015-8-11
+Sunrise: 532
+Sunset:  1912
+
+Date:    2015-4-24
+Sunrise: 532
+Sunset:  1858
+
+Date:    2015-8-13
+Sunrise: 533
+Sunset:  1909
+
+Date:    2015-8-14
+Sunrise: 534
+Sunset:  1908
+
+Date:    2015-4-23
+Sunrise: 534
+Sunset:  1857
+
+Date:    2015-8-15
+Sunrise: 535
+Sunset:  1907
+
+Date:    2015-4-22
+Sunrise: 535
+Sunset:  1856
+
+Date:    2015-8-17
+Sunrise: 536
+Sunset:  1904
+
+Date:    2015-8-16
+Sunrise: 536
+Sunset:  1906
+
+Date:    2015-4-21
+Sunrise: 536
+Sunset:  1855
+
+Date:    2015-8-18
+Sunrise: 537
+Sunset:  1903
+
+Date:    2015-4-20
+Sunrise: 537
+Sunset:  1854
+
+Date:    2015-8-19
+Sunrise: 538
+Sunset:  1902
+
+Date:    2015-8-20
+Sunrise: 539
+Sunset:  1901
+
+Date:    2015-4-19
+Sunrise: 539
+Sunset:  1854
+
+Date:    2015-8-22
+Sunrise: 540
+Sunset:  1858
+
+Date:    2015-8-21
+Sunrise: 540
+Sunset:  1859
+
+Date:    2015-4-18
+Sunrise: 540
+Sunset:  1853
+
+Date:    2015-8-23
+Sunrise: 541
+Sunset:  1857
+
+Date:    2015-4-17
+Sunrise: 541
+Sunset:  1852
+
+Date:    2015-8-24
+Sunrise: 542
+Sunset:  1856
+
+Date:    2015-8-25
+Sunrise: 543
+Sunset:  1854
+
+Date:    2015-4-16
+Sunrise: 543
+Sunset:  1851
+
+Date:    2015-8-27
+Sunrise: 544
+Sunset:  1852
+
+Date:    2015-8-26
+Sunrise: 544
+Sunset:  1853
+
+Date:    2015-4-15
+Sunrise: 544
+Sunset:  1850
+
+Date:    2015-8-28
+Sunrise: 545
+Sunset:  1850
+
+Date:    2015-4-14
+Sunrise: 545
+Sunset:  1849
+
+Date:    2015-8-29
+Sunrise: 546
+Sunset:  1849
+
+Date:    2015-8-31
+Sunrise: 547
+Sunset:  1846
+
+Date:    2015-8-30
+Sunrise: 547
+Sunset:  1847
+
+Date:    2015-4-13
+Sunrise: 547
+Sunset:  1849
+
+Date:    2015-9-1
+Sunrise: 548
+Sunset:  1845
+
+Date:    2015-4-12
+Sunrise: 548
+Sunset:  1848
+
+Date:    2015-9-2
+Sunrise: 549
+Sunset:  1843
+
+Date:    2015-4-11
+Sunrise: 549
+Sunset:  1847
+
+Date:    2015-9-3
+Sunrise: 550
+Sunset:  1842
+
+Date:    2015-9-5
+Sunrise: 551
+Sunset:  1839
+
+Date:    2015-9-4
+Sunrise: 551
+Sunset:  1840
+
+Date:    2015-4-10
+Sunrise: 551
+Sunset:  1846
+
+Date:    2015-9-6
+Sunrise: 552
+Sunset:  1837
+
+Date:    2015-4-9
+Sunrise: 552
+Sunset:  1845
+
+Date:    2015-9-7
+Sunrise: 553
+Sunset:  1836
+
+Date:    2015-4-8
+Sunrise: 553
+Sunset:  1844
+
+Date:    2015-9-9
+Sunrise: 554
+Sunset:  1833
+
+Date:    2015-9-8
+Sunrise: 554
+Sunset:  1835
+
+Date:    2015-9-10
+Sunrise: 555
+Sunset:  1832
+
+Date:    2015-4-7
+Sunrise: 555
+Sunset:  1843
+
+Date:    2015-9-11
+Sunrise: 556
+Sunset:  1830
+
+Date:    2015-4-6
+Sunrise: 556
+Sunset:  1843
+
+Date:    2015-9-13
+Sunrise: 557
+Sunset:  1827
+
+Date:    2015-9-12
+Sunrise: 557
+Sunset:  1829
+
+Date:    2015-9-14
+Sunrise: 558
+Sunset:  1826
+
+Date:    2015-4-5
+Sunrise: 558
+Sunset:  1842
+
+Date:    2015-9-15
+Sunrise: 559
+Sunset:  1824
+
+Date:    2015-4-4
+Sunrise: 559
+Sunset:  1841
+
+Date:    2015-9-16
+Sunrise: 600
+Sunset:  1823
+
+Date:    2015-4-3
+Sunrise: 600
+Sunset:  1840
+
+Date:    2015-9-18
+Sunrise: 601
+Sunset:  1820
+
+Date:    2015-9-17
+Sunrise: 601
+Sunset:  1821
+
+Date:    2015-9-19
+Sunrise: 602
+Sunset:  1818
+
+Date:    2015-4-2
+Sunrise: 602
+Sunset:  1839
+
+Date:    2015-9-20
+Sunrise: 603
+Sunset:  1817
+
+Date:    2015-4-1
+Sunrise: 603
+Sunset:  1838
+
+Date:    2015-9-22
+Sunrise: 604
+Sunset:  1814
+
+Date:    2015-9-21
+Sunrise: 604
+Sunset:  1815
+
+Date:    2015-9-23
+Sunrise: 605
+Sunset:  1812
+
+Date:    2015-3-31
+Sunrise: 605
+Sunset:  1838
+
+Date:    2015-9-24
+Sunrise: 606
+Sunset:  1811
+
+Date:    2015-3-30
+Sunrise: 606
+Sunset:  1837
+
+Date:    2015-9-25
+Sunrise: 607
+Sunset:  1809
+
+Date:    2015-9-27
+Sunrise: 608
+Sunset:  1806
+
+Date:    2015-9-26
+Sunrise: 608
+Sunset:  1808
+
+Date:    2015-3-29
+Sunrise: 608
+Sunset:  1836
+
+Date:    2015-9-28
+Sunrise: 609
+Sunset:  1805
+
+Date:    2015-3-28
+Sunrise: 609
+Sunset:  1835
+
+Date:    2015-9-29
+Sunrise: 610
+Sunset:  1803
+
+Date:    2015-3-27
+Sunrise: 610
+Sunset:  1834
+
+Date:    2015-9-30
+Sunrise: 611
+Sunset:  1802
+
+Date:    2015-10-2
+Sunrise: 612
+Sunset:  1759
+
+Date:    2015-10-1
+Sunrise: 612
+Sunset:  1801
+
+Date:    2015-3-26
+Sunrise: 612
+Sunset:  1833
+
+Date:    2015-10-3
+Sunrise: 613
+Sunset:  1758
+
+Date:    2015-3-25
+Sunrise: 613
+Sunset:  1833
+
+Date:    2015-10-4
+Sunrise: 614
+Sunset:  1756
+
+Date:    2015-10-5
+Sunrise: 615
+Sunset:  1755
+
+Date:    2015-3-24
+Sunrise: 615
+Sunset:  1832
+
+Date:    2015-10-7
+Sunrise: 616
+Sunset:  1752
+
+Date:    2015-10-6
+Sunrise: 616
+Sunset:  1753
+
+Date:    2015-3-23
+Sunrise: 616
+Sunset:  1831
+
+Date:    2015-10-8
+Sunrise: 617
+Sunset:  1751
+
+Date:    2015-10-9
+Sunrise: 618
+Sunset:  1749
+
+Date:    2015-3-22
+Sunrise: 618
+Sunset:  1830
+
+Date:    2015-10-10
+Sunrise: 619
+Sunset:  1748
+
+Date:    2015-3-21
+Sunrise: 619
+Sunset:  1829
+
+Date:    2015-10-11
+Sunrise: 620
+Sunset:  1746
+
+Date:    2015-10-12
+Sunrise: 621
+Sunset:  1745
+
+Date:    2015-3-20
+Sunrise: 621
+Sunset:  1828
+
+Date:    2015-10-14
+Sunrise: 622
+Sunset:  1742
+
+Date:    2015-10-13
+Sunrise: 622
+Sunset:  1744
+
+Date:    2015-3-19
+Sunrise: 622
+Sunset:  1827
+
+Date:    2015-10-15
+Sunrise: 623
+Sunset:  1741
+
+Date:    2015-3-18
+Sunrise: 623
+Sunset:  1827
+
+Date:    2015-10-16
+Sunrise: 624
+Sunset:  1740
+
+Date:    2015-10-17
+Sunrise: 625
+Sunset:  1738
+
+Date:    2015-3-17
+Sunrise: 625
+Sunset:  1826
+
+Date:    2015-10-18
+Sunrise: 626
+Sunset:  1737
+
+Date:    2015-3-16
+Sunrise: 626
+Sunset:  1825
+
+Date:    2015-10-19
+Sunrise: 627
+Sunset:  1736
+
+Date:    2015-10-20
+Sunrise: 628
+Sunset:  1735
+
+Date:    2015-3-15
+Sunrise: 628
+Sunset:  1824
+
+Date:    2015-10-21
+Sunrise: 629
+Sunset:  1733
+
+Date:    2015-3-14
+Sunrise: 629
+Sunset:  1823
+
+Date:    2015-10-22
+Sunrise: 630
+Sunset:  1732
+
+Date:    2015-10-23
+Sunrise: 631
+Sunset:  1731
+
+Date:    2015-3-13
+Sunrise: 631
+Sunset:  1822
+
+Date:    2015-10-25
+Sunrise: 632
+Sunset:  1729
+
+Date:    2015-10-24
+Sunrise: 632
+Sunset:  1730
+
+Date:    2015-3-12
+Sunrise: 632
+Sunset:  1821
+
+Date:    2015-10-26
+Sunrise: 633
+Sunset:  1727
+
+Date:    2015-3-11
+Sunrise: 633
+Sunset:  1820
+
+Date:    2015-10-27
+Sunrise: 634
+Sunset:  1726
+
+Date:    2015-10-28
+Sunrise: 635
+Sunset:  1725
+
+Date:    2015-3-10
+Sunrise: 635
+Sunset:  1820
+
+Date:    2015-10-29
+Sunrise: 636
+Sunset:  1724
+
+Date:    2015-3-9
+Sunrise: 636
+Sunset:  1819
+
+Date:    2015-10-30
+Sunrise: 637
+Sunset:  1723
+
+Date:    2015-10-31
+Sunrise: 638
+Sunset:  1722
+
+Date:    2015-3-8
+Sunrise: 638
+Sunset:  1818
+
+Date:    2015-11-1
+Sunrise: 639
+Sunset:  1721
+
+Date:    2015-3-7
+Sunrise: 639
+Sunset:  1817
+
+Date:    2015-11-2
+Sunrise: 640
+Sunset:  1720
+
+Date:    2015-3-6
+Sunrise: 640
+Sunset:  1816
+
+Date:    2015-11-3
+Sunrise: 641
+Sunset:  1719
+
+Date:    2015-11-4
+Sunrise: 642
+Sunset:  1718
+
+Date:    2015-3-5
+Sunrise: 642
+Sunset:  1815
+
+Date:    2015-11-5
+Sunrise: 643
+Sunset:  1717
+
+Date:    2015-3-4
+Sunrise: 643
+Sunset:  1814
+
+Date:    2015-11-6
+Sunrise: 644
+Sunset:  1716
+
+Date:    2015-11-7
+Sunrise: 645
+Sunset:  1715
+
+Date:    2015-3-3
+Sunrise: 645
+Sunset:  1813
+
+Date:    2015-11-8
+Sunrise: 646
+Sunset:  1714
+
+Date:    2015-3-2
+Sunrise: 646
+Sunset:  1812
+
+Date:    2015-11-9
+Sunrise: 647
+Sunset:  1714
+
+Date:    2015-3-1
+Sunrise: 647
+Sunset:  1811
+
+Date:    2015-11-10
+Sunrise: 648
+Sunset:  1713
+
+Date:    2015-2-28
+Sunrise: 648
+Sunset:  1810
+
+Date:    2015-11-11
+Sunrise: 649
+Sunset:  1712
+
+Date:    2015-11-12
+Sunrise: 650
+Sunset:  1711
+
+Date:    2015-2-27
+Sunrise: 650
+Sunset:  1810
+
+Date:    2015-11-13
+Sunrise: 651
+Sunset:  1710
+
+Date:    2015-2-26
+Sunrise: 651
+Sunset:  1809
+
+Date:    2015-11-14
+Sunrise: 652
+Sunset:  1710
+
+Date:    2015-2-25
+Sunrise: 652
+Sunset:  1808
+
+Date:    2015-11-15
+Sunrise: 653
+Sunset:  1709
+
+Date:    2015-11-16
+Sunrise: 654
+Sunset:  1708
+
+Date:    2015-2-24
+Sunrise: 654
+Sunset:  1807
+
+Date:    2015-11-17
+Sunrise: 655
+Sunset:  1708
+
+Date:    2015-2-23
+Sunrise: 655
+Sunset:  1806
+
+Date:    2015-11-18
+Sunrise: 656
+Sunset:  1707
+
+Date:    2015-2-22
+Sunrise: 656
+Sunset:  1805
+
+Date:    2015-11-19
+Sunrise: 657
+Sunset:  1707
+
+Date:    2015-2-21
+Sunrise: 657
+Sunset:  1804
+
+Date:    2015-11-20
+Sunrise: 658
+Sunset:  1706
+
+Date:    2015-2-20
+Sunrise: 658
+Sunset:  1803
+
+Date:    2015-11-21
+Sunrise: 659
+Sunset:  1706
+
+Date:    2015-11-22
+Sunrise: 700
+Sunset:  1705
+
+Date:    2015-2-19
+Sunrise: 700
+Sunset:  1802
+
+Date:    2015-11-23
+Sunrise: 701
+Sunset:  1705
+
+Date:    2015-2-18
+Sunrise: 701
+Sunset:  1801
+
+Date:    2015-11-24
+Sunrise: 702
+Sunset:  1704
+
+Date:    2015-2-17
+Sunrise: 702
+Sunset:  1800
+
+Date:    2015-11-25
+Sunrise: 703
+Sunset:  1704
+
+Date:    2015-2-16
+Sunrise: 703
+Sunset:  1759
+
+Date:    2015-11-26
+Sunrise: 704
+Sunset:  1704
+
+Date:    2015-2-15
+Sunrise: 704
+Sunset:  1758
+
+Date:    2015-11-27
+Sunrise: 705
+Sunset:  1703
+
+Date:    2015-2-14
+Sunrise: 705
+Sunset:  1757
+
+Date:    2015-11-28
+Sunrise: 706
+Sunset:  1703
+
+Date:    2015-2-13
+Sunrise: 706
+Sunset:  1756
+
+Date:    2015-11-29
+Sunrise: 707
+Sunset:  1703
+
+Date:    2015-2-12
+Sunrise: 707
+Sunset:  1755
+
+Date:    2015-11-30
+Sunrise: 708
+Sunset:  1703
+
+Date:    2015-2-11
+Sunrise: 708
+Sunset:  1754
+
+Date:    2015-12-1
+Sunrise: 709
+Sunset:  1702
+
+Date:    2015-2-10
+Sunrise: 709
+Sunset:  1753
+
+Date:    2015-12-3
+Sunrise: 710
+Sunset:  1702
+
+Date:    2015-12-2
+Sunrise: 710
+Sunset:  1702
+
+Date:    2015-2-9
+Sunrise: 710
+Sunset:  1752
+
+Date:    2015-12-4
+Sunrise: 711
+Sunset:  1702
+
+Date:    2015-2-8
+Sunrise: 711
+Sunset:  1751
+
+Date:    2015-12-5
+Sunrise: 712
+Sunset:  1702
+
+Date:    2015-2-7
+Sunrise: 712
+Sunset:  1750
+
+Date:    2015-12-6
+Sunrise: 713
+Sunset:  1702
+
+Date:    2015-2-6
+Sunrise: 713
+Sunset:  1749
+
+Date:    2015-12-7
+Sunrise: 714
+Sunset:  1702
+
+Date:    2015-2-5
+Sunrise: 714
+Sunset:  1748
+
+Date:    2015-12-8
+Sunrise: 715
+Sunset:  1702
+
+Date:    2015-2-4
+Sunrise: 715
+Sunset:  1746
+
+Date:    2015-12-10
+Sunrise: 716
+Sunset:  1702
+
+Date:    2015-12-9
+Sunrise: 716
+Sunset:  1702
+
+Date:    2015-2-3
+Sunrise: 716
+Sunset:  1745
+
+Date:    2015-12-11
+Sunrise: 717
+Sunset:  1703
+
+Date:    2015-2-2
+Sunrise: 717
+Sunset:  1744
+
+Date:    2015-12-12
+Sunrise: 718
+Sunset:  1703
+
+Date:    2015-2-1
+Sunrise: 718
+Sunset:  1743
+
+Date:    2015-1-31
+Sunrise: 718
+Sunset:  1742
+
+Date:    2015-12-14
+Sunrise: 719
+Sunset:  1703
+
+Date:    2015-12-13
+Sunrise: 719
+Sunset:  1703
+
+Date:    2015-1-30
+Sunrise: 719
+Sunset:  1741
+
+Date:    2015-12-15
+Sunrise: 720
+Sunset:  1704
+
+Date:    2015-1-29
+Sunrise: 720
+Sunset:  1740
+
+Date:    2015-1-28
+Sunrise: 720
+Sunset:  1739
+
+Date:    2015-12-17
+Sunrise: 721
+Sunset:  1704
+
+Date:    2015-12-16
+Sunrise: 721
+Sunset:  1704
+
+Date:    2015-1-27
+Sunrise: 721
+Sunset:  1738
+
+Date:    2015-12-19
+Sunrise: 722
+Sunset:  1705
+
+Date:    2015-12-18
+Sunrise: 722
+Sunset:  1705
+
+Date:    2015-1-26
+Sunrise: 722
+Sunset:  1737
+
+Date:    2015-1-25
+Sunrise: 722
+Sunset:  1736
+
+Date:    2015-12-20
+Sunrise: 723
+Sunset:  1705
+
+Date:    2015-1-24
+Sunrise: 723
+Sunset:  1735
+
+Date:    2015-1-23
+Sunrise: 723
+Sunset:  1734
+
+Date:    2015-12-23
+Sunrise: 724
+Sunset:  1707
+
+Date:    2015-12-22
+Sunrise: 724
+Sunset:  1706
+
+Date:    2015-12-21
+Sunrise: 724
+Sunset:  1706
+
+Date:    2015-1-22
+Sunrise: 724
+Sunset:  1733
+
+Date:    2015-1-21
+Sunrise: 724
+Sunset:  1732
+
+Date:    2015-12-25
+Sunrise: 725
+Sunset:  1708
+
+Date:    2015-12-24
+Sunrise: 725
+Sunset:  1708
+
+Date:    2015-1-20
+Sunrise: 725
+Sunset:  1731
+
+Date:    2015-1-19
+Sunrise: 725
+Sunset:  1730
+
+Date:    2015-12-28
+Sunrise: 726
+Sunset:  1710
+
+Date:    2015-12-27
+Sunrise: 726
+Sunset:  1709
+
+Date:    2015-12-26
+Sunrise: 726
+Sunset:  1709
+
+Date:    2015-1-18
+Sunrise: 726
+Sunset:  1729
+
+Date:    2015-1-17
+Sunrise: 726
+Sunset:  1728
+
+Date:    2015-1-16
+Sunrise: 726
+Sunset:  1727
+
+Date:    2015-12-31
+Sunrise: 727
+Sunset:  1712
+
+Date:    2015-12-30
+Sunrise: 727
+Sunset:  1711
+
+Date:    2015-12-29
+Sunrise: 727
+Sunset:  1711
+
+Date:    2015-1-15
+Sunrise: 727
+Sunset:  1726
+
+Date:    2015-1-14
+Sunrise: 727
+Sunset:  1725
+
+Date:    2015-1-13
+Sunrise: 727
+Sunset:  1724
+
+Date:    2015-1-12
+Sunrise: 727
+Sunset:  1723
+
+Date:    2015-1-1
+Sunrise: 727
+Sunset:  1713
+
+Date:    2015-1-11
+Sunrise: 728
+Sunset:  1722
+
+Date:    2015-1-10
+Sunrise: 728
+Sunset:  1721
+
+Date:    2015-1-9
+Sunrise: 728
+Sunset:  1720
+
+Date:    2015-1-8
+Sunrise: 728
+Sunset:  1719
+
+Date:    2015-1-7
+Sunrise: 728
+Sunset:  1718
+
+Date:    2015-1-6
+Sunrise: 728
+Sunset:  1717
+
+Date:    2015-1-5
+Sunrise: 728
+Sunset:  1716
+
+Date:    2015-1-4
+Sunrise: 728
+Sunset:  1716
+
+Date:    2015-1-3
+Sunrise: 728
+Sunset:  1715
+
+Date:    2015-1-2
+Sunrise: 728
+Sunset:  1714
+
+quit
+csce_user@cscuser-VirtualBox: ~/csce/cs2014/hw/hw4csce_user@cscuser-VirtualBox:~/csce/cs2014/hw/hw4$ exit
+Script done on Sun 19 Jul 2015 02:55:23 PM CDT
