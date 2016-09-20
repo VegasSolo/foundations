@@ -1,0 +1,86 @@
+Script started on Tue 10 Mar 2015 10:05:28 PM CDT
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ cd csce/hw4
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ g++ hw[K[K-Wall hw4a[Kb.cpp -o hw4b.exe
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ ./hw4b.exe
+#########################
+### Dillon VanBuskirk ###
+####### 010688916 #######
+#########################
+
+------------------------------------------------------------------------
+Spring Break is coming up but you haven't started planning!
+We're here to help you choose a vehicle and destination.
+Based on your vehicle type and destination we will calculate the number
+of gallons needed to get there as well as how much it will cost.
+------------------------------------------------------------------------
+Enter K for Kansas City, P for Panama City Beach or A for Anchorage.
+Where would you like to go?
+p
+
+Enter H for Hybrid, C for Car, T for Truck or S for SUV.
+Which vehicle would you like to drive?
+t
+
+You will need 40.935 gallons which will cost you
+$127.72.
+It will take you about 11 hours to get to Panama City Beach in a Truck.
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ ./hw4b.exe
+#########################
+### Dillon VanBuskirk ###
+####### 010688916 #######
+#########################
+
+------------------------------------------------------------------------
+Spring Break is coming up but you haven't started planning!
+We're here to help you choose a vehicle and destination.
+Based on your vehicle type and destination we will calculate the number
+of gallons needed to get there as well as how much it will cost.
+------------------------------------------------------------------------
+Enter K for Kansas City, P for Panama City Beach or A for Anchorage.
+Where would you like to go?
+u
+
+U is not a valid selection.
+Enter K for Kansas City, P for Panama City Beach or A for Anchorage.
+k
+
+Enter H for Hybrid, C for Car, T for Truck or S for SUV.
+Which vehicle would you like to drive?
+u
+
+U is not a valid selection.
+Enter H for Hybrid, C for Car, T for Truck or S for SUV.
+h
+
+You will need 6.3973 gallons which will cost you
+$19.96.
+It will take you about 3 hours to get to Kansas City in a Hybrid.
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ ./hw4b.exe
+#########################
+### Dillon VanBuskirk ###
+####### 010688916 #######
+#########################
+
+------------------------------------------------------------------------
+Spring Break is coming up but you haven't started planning!
+We're here to help you choose a vehicle and destination.
+Based on your vehicle type and destination we will calculate the number
+of gallons needed to get there as well as how much it will cost.
+------------------------------------------------------------------------
+Enter K for Kansas City, P for Panama City Beach or A for Anchorage.
+Where would you like to go?
+a
+
+Enter H for Hybrid, C for Car, T for Truck or S for SUV.
+Which vehicle would you like to drive?
+a
+
+A is not a valid selection.
+Enter H for Hybrid, C for Car, T for Truck or S for SUV.
+s
+
+You will need 163.752 gallons which will cost you
+$510.91.
+It will take you about 53 hours to get to Anchorage in a SUV.
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ exit
+Script done on Tue 10 Mar 2015 10:06:34 PM CDT
