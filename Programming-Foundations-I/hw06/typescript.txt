@@ -1,0 +1,95 @@
+Script started on Thu 16 Apr 2015 11:56:40 PM CDT
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ cd csce/hw6
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw6csce_user@cscuser-VirtualBox:~/csce/hw6$ make
+g++ useDNS.o DNS.o -o hw6
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw6csce_user@cscuser-VirtualBox:~/csce/hw6$ make clean
+rm *.o hw6
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw6csce_user@cscuser-VirtualBox:~/csce/hw6$ make
+g++ -Wall -c useDNS.cpp
+g++ -Wall -c DNS.cpp
+g++ useDNS.o DNS.o -o hw6
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw6csce_user@cscuser-VirtualBox:~/csce/hw6$ ./hw6
+
+Welcome. Please follow instructions below.
+
+Enter 'F' to fill the lookup table from a file
+      'A' to add an entry to the lookup table
+      'U' to find a URL for a given IP address
+      'I' to find an IP address for a given URL
+      'P' to print the contents of the lookup table
+      'Q' to quit the program
+Selection: f
+Would you like to use the default filename, 'list.txt', or would you like to you enter a new filename?
+Please enter a D for [D]efault or an N for [N]ew:
+d
+The file has been successfully read and arrays have been filled.
+
+Your request was completed. Would you like to continue?
+Enter Q to [Q]uit or C to [C]ontinue
+c
+
+Welcome. Please follow instructions below.
+
+Enter 'F' to fill the lookup table from a file
+      'A' to add an entry to the lookup table
+      'U' to find a URL for a given IP address
+      'I' to find an IP address for a given URL
+      'P' to print the contents of the lookup table
+      'Q' to quit the program
+Selection: a
+This is the option to add a website to the table.
+Please enter the IP Address:
+12345
+This IP Address is invalid. Please try again.
+An IP Address must be between 7 and 15 characters, contain exactly three periods and contain only digits and (3) periods.
+192.1968   68.1.1
+Please enter the website URL:
+www.goooogle.com
+This website URL is valid.
+The website has been successfully added.
+
+Your request was completed. Would you like to continue?
+Enter Q to [Q]uit or C to [C]ontinue
+c
+
+Welcome. Please follow instructions below.
+
+Enter 'F' to fill the lookup table from a file
+      'A' to add an entry to the lookup table
+      'U' to find a URL for a given IP address
+      'I' to find an IP address for a given URL
+      'P' to print the contents of the lookup table
+      'Q' to quit the program
+Selection: p
+74.125.239.104 www.google.com
+192.0.79.33 www.hackaday.com
+130.184.5.181 www.uark.edu
+140.147.249.7 www.loc.gov
+130.184.98.31 www.csce.uark.edu
+192.168.1.1 www.goooogle.com
+
+Your request was completed. Would you like to continue?
+Enter Q to [Q]uit or C to [C]ontinue
+c
+
+Welcome. Please follow instructions below.
+
+Enter 'F' to fill the lookup table from a file
+      'A' to add an entry to the lookup table
+      'U' to find a URL for a given IP address
+      'I' to find an IP address for a given URL
+      'P' to print the contents of the lookup table
+      'Q' to quit the program
+Selection: i
+Please enter the website for the IP Address you want to find:
+www.google.com
+/nThe IP Address is 74.125.239.104
+
+Your request was completed. Would you like to continue?
+Enter Q to [Q]uit or C to [C]ontinue
+q
+Goodbye.
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw6csce_user@cscuser-VirtualBox:~/csce/hw6$ exit
+exit
+
+Script done on Thu 16 Apr 2015 11:57:41 PM CDT
