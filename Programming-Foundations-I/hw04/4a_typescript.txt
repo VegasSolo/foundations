@@ -1,0 +1,219 @@
+Script started on Mon 09 Mar 2015 09:39:10 PM CDT
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ cd csce/hw4
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ g++ -Wall hw4a.cpp -o hw4a.exe
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ ./hw4a.exe
+Name: Dillon VanBuskirk
+UAID: 010688916
+
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: n
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: c
+
+--------------------------------------------------------------------------
+You have chosen to order one cargo seat (only one seat available at a time).
+You will be sitting with all the luggage...
+Are you sure you want to purchase this seat?  Enter Y or N: y
+
+You have chosen to order one cargo seat.
+The seat costs $22.38.
+--------------------------------------------------------------------------
+
+Would you like to continue?  Enter Y or N: y
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: y
+The Cargo seats are the cheapest, because the seats are located with all of the cargo!
+The Passenger seats are a fair price. These seats are where majority of airline passengers sit.
+The Business seats are for the travelling executive, because the seats are very comfortable and suited for completing work.
+The First Class seats are the most expensive, because the seats are very comfortable, include free food, and luxury massages.
+First class seat purchasers can also add other options (souvenirs and Bose headphones) to their purchase.
+
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: f
+
+--------------------------------------------------------------------------
+You have chosen to order one first class seat (only one seat available at a time). You will be sitting with all the celebrities! Maybe you will see Bill Gates!!!!
+A first class seat costs: $120.00.
+--------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------
+You have chosen to order First Class seat tickets.
+You can add a premium package that includes a souvenir and free Bose Headphones.
+This costs $70.00 per ticket.
+----------------------------------------------------------------------------------------------
+
+Would you like to add the premium package?  Enter Y or N: y
+Your First Class seats with the premium upgrade cost $190.00 for 1 seat.
+Would you like to continue?  Enter Y or N: y
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: n
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: f
+
+--------------------------------------------------------------------------
+You have chosen to order one first class seat (only one seat available at a time). You will be sitting with all the celebrities! Maybe you will see Bill Gates!!!!
+A first class seat costs: $120.
+--------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------
+You have chosen to order First Class seat tickets.
+You can add a premium package that includes a souvenir and free Bose Headphones.
+This costs $70 per ticket.
+----------------------------------------------------------------------------------------------
+
+Would you like to add the premium package?  Enter Y or N: n
+Would you like to continue?  Enter Y or N: y
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: n
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: p
+
+--------------------------------------------------------------------------
+You have chosen to order standard passenger seats.
+How many seats would you like to order? 4
+
+
+
+--------------------------------------------------------------------------
+You have chosen to order 4 Passenger tickets.
+Each ticket costs $82.00.
+The price for these tickets is $328.00
+--------------------------------------------------------------------------
+
+Thank you for purchasing passenger seats.
+--------------------------------------------------------------------------
+
+Would you like to continue?  Enter Y or N: y
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: n
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: b
+
+--------------------------------------------------------------------------
+You have chosen to order business class seats.
+How many seats would you like to order? 2
+
+
+Thank you for purchasing 2 business class seats.--------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------
+You have chosen to order 2 Business tickets.
+Each ticket costs $100.00.
+The price for these tickets is $200.00
+--------------------------------------------------------------------------
+
+Would you like to continue?  Enter Y or N: n
+You ordered a total of 9 seat(s) which came to $860.38.
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ ./hw4a.exe
+Name: Dillon VanBuskirk
+UAID: 010688916
+
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: y
+The Cargo seats are the cheapest, because the seats are located with all of the cargo!
+The Passenger seats are a fair price. These seats are where majority of airline passengers sit.
+The Business seats are for the travelling executive, because the seats are very comfortable and suited for completing work.
+The First Class seats are the most expensive, because the seats are very comfortable, include free food, and luxury massages.
+First class seat purchasers can also add other options (souvenirs and Bose headphones) to their purchase.
+
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: c
+
+--------------------------------------------------------------------------
+You have chosen to order one cargo seat (only one seat available at a time).
+You will be sitting with all the luggage...
+Are you sure you want to purchase this seat?  Enter Y or N: y n
+You have chosen NOT to purchase a cargo seat.
+--------------------------------------------------------------------------
+
+Would you like to continue?  Enter Y or N: y
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: f
+Invalid character. Please enter either (Y) for yes or (N) for no.
+Would you like more information about each seat type?  Enter Y or N: y n
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: f
+
+--------------------------------------------------------------------------
+You have chosen to order one first class seat (only one seat available at a time). You will be sitting with all the celebrities! Maybe you will see Bill Gates!!!!
+A first class seat costs: $120.
+--------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------
+You have chosen to order First Class seat tickets.
+You can add a premium package that includes a souvenir and free Bose Headphones.
+This costs $70 per ticket.
+----------------------------------------------------------------------------------------------
+
+Would you like to add the premium package?  Enter Y or N: y
+Your First Class seats with the premium upgrade cost $190.00 for 1 seat.
+Would you like to continue?  Enter Y or N: n
+You ordered a total of 1 seat(s) which came to $190.00.
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ ./hw4a.exe
+Name: Dillon VanBuskirk
+UAID: 010688916
+
+The Razorback Airlines offers its patrons an assortment
+of seats to fit different budgets.
+There are four kinds of seats that the Razorback Airlines offers:
+Cargo, Passenger, Business, and First Class seats.
+
+Would you like more information about each seat type?  Enter Y or N: n
+
+Which seat would you like to purchase next?
+Type C for cargo, P for passenger, B for business, or F for first class: c
+
+--------------------------------------------------------------------------
+You have chosen to order one cargo seat (only one seat available at a time).
+You will be sitting with all the luggage...
+Are you sure you want to purchase this seat?  Enter Y or N: y
+
+You have chosen to order one cargo seat.
+The seat costs $22.38.
+--------------------------------------------------------------------------
+
+Would you like to continue?  Enter Y or N: n
+You ordered a total of 1 seat(s) which came to $22.38.
+]0;csce_user@cscuser-VirtualBox: ~/csce/hw4csce_user@cscuser-VirtualBox:~/csce/hw4$ exit
+exit
+
+Script done on Mon 09 Mar 2015 09:40:44 PM CDT
