@@ -1,0 +1,128 @@
+Script started on Mon 09 Feb 2015 06:55:48 PM CST
+]0;csce_user@cscuser-VirtualBox: ~csce_user@cscuser-VirtualBox:~$ cd csce
+]0;csce_user@cscuser-VirtualBox: ~/cscecsce_user@cscuser-VirtualBox:~/csce$ g++ -Wall 010688916.hw2.cpp -o hw2.exe
+]0;csce_user@cscuser-VirtualBox: ~/cscecsce_user@cscuser-VirtualBox:~/csce$ ./hw2.exe
+
+Welcome to the Football Statistics Calculator!
+This is a program that can calculate and compare statistics about
+a Quarterback, Running Back and a Wide Receiver.
+
+Enter the team's name for which these players play: Broncos
+Enter the Quarterback's last name: Manning
+
+We will calculate the quarterback rating for Manning.
+How many passes did the quarterback attempt? 500
+How many of those passes did the quarterback complete? 450
+How many yards did he throw for? 2200
+How many touchdowns did he throw? 65
+How many interceptions did he throw? 2
+
+Your quarterback had a completion percentage rating of: 2.375
+Your quarterback had a yards per attempt rating of: 0.35
+Your quarterback had a touchdown percentage rating of: 2.375
+Your quarterback had an interception rating of: 2.275
+The QBR of your quarterback was: 122.917
+
+Enter the Wide Receiver's last name: Sanders
+We will calculate some Wide Receiver statistics for Sanders.
+How many receptions did he have? 400
+How many yards did he earn? 2000
+How many TDs did he have? 50
+How many fumbles did he have? 1
+
+Sanders's average yards per catch is: 5
+
+Enter the Running Back's last name: Anderson
+We will calculate some Running Back statistics for Anderson.
+How many rushing attempts did he have? 250
+How many yards did he earn? 2500
+How many TDs did he have? 49
+How many fumbles did he have? 0
+
+Anderson's average yards per rush is: 10
+
+The player with the most turnovers is: Manning
+The player with the highest yards per attempt is: Anderson
+The player with the most TDs is: Manning
+
+Go Broncos go!
+]0;csce_user@cscuser-VirtualBox: ~/cscecsce_user@cscuser-VirtualBox:~/csce$ ./hw2.exe
+
+Welcome to the Football Statistics Calculator!
+This is a program that can calculate and compare statistics about
+a Quarterback, Running Back and a Wide Receiver.
+
+Enter the team's name for which these players play: error
+Enter the Quarterback's last name: testing
+
+We will calculate the quarterback rating for testing.
+How many passes did the quarterback attempt? c
+How many of those passes did the quarterback complete? How many yards did he throw for? How many touchdowns did he throw? How many interceptions did he throw? 
+Your quarterback had a completion percentage rating of: -nan
+Your quarterback had a yards per attempt rating of: 0
+Your quarterback had a touchdown percentage rating of: 2.375
+Your quarterback had an interception rating of: 0
+The QBR of your quarterback was: -nan
+
+Enter the Wide Receiver's last name: We will calculate some Wide Receiver statistics for .
+How many receptions did he have? How many yards did he earn? How many TDs did he have? How many fumbles did he have? 
+'s average yards per catch is: -inf
+
+Enter the Running Back's last name: We will calculate some Running Back statistics for .
+How many rushing attempts did he have? How many yards did he earn? How many TDs did he have? How many fumbles did he have? 
+'s average yards per rush is: inf
+
+The player with the most turnovers is: 
+The player with the highest yards per attempt is: 
+The player with the most TDs is: testing
+
+Go error go!
+]0;csce_user@cscuser-VirtualBox: ~/cscecsce_user@cscuser-VirtualBox:~/csce$ ./hw2.exe
+
+Welcome to the Football Statistics Calculator!
+This is a program that can calculate and compare statistics about
+a Quarterback, Running Back and a Wide Receiver.
+
+Enter the team's name for which these players play: Chiefs
+Enter the Quarterback's last name: Smith
+
+We will calculate the quarterback rating for Smith.
+How many passes did the quarterback attempt? 500
+How many of those passes did the quarterback complete? 20
+How many yards did he throw for? 150
+How many touchdowns did he throw? 1
+How many interceptions did he throw? 3
+
+Your quarterback had a completion percentage rating of: 0
+Your quarterback had a yards per attempt rating of: 0
+Your quarterback had a touchdown percentage rating of: 0.04
+Your quarterback had an interception rating of: 2.225
+The QBR of your quarterback was: 37.75
+
+Enter the Wide Receiver's last name: Smiths 2
+We will calculate some Wide Receiver statistics for Smith2.
+How many receptions did he have? 10
+How many yards did he earn? 50
+How many TDs did he have? 1
+How many fumbles did he have? 2
+
+Smith2's average yards per catch is: 5
+
+Enter the Running Back's last name: Smith3
+We will calculate some Running Back statistics for Smith3.
+How many rushing attempts did he have? 15
+How many yards did he earn? 12
+How many TDs did he have? 0
+How many fumbles did he have? 2
+
+Smith3's average yards per rush is: 0.8
+
+The player with the most turnovers is: Smith
+The player with the highest yards per attempt is: Smith2
+The player with the most TDs is: Smith
+
+Go Chiefs go!
+]0;csce_user@cscuser-VirtualBox: ~/cscecsce_user@cscuser-VirtualBox:~/csce$ exit
+exit
+
+Script done on Mon 09 Feb 2015 06:57:54 PM CST
